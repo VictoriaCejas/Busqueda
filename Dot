@@ -1,0 +1,14 @@
+from simpleai.search import astar, SearchProblem
+from simpleai.search.viewers import WebViewer
+
+"""
+Esta es una versión muy simplificada del juego Dota. En esta versión, el mapa es un tablero de 3x3, 
+participa un solo jugador, y tiene como objetivos derrotar a un héroe enemigo y 
+destruir su base en la menor cantidad de acciones posibles. 
+El jugador comienza en la esquina inferior izquierda del mapa, 
+y en cada turno puede moverse a los casilleros limítrofes (no en diagonal). 
+Si se encuentra adyacente a un casillero de un enemigo o edificio, 
+también tiene disponible la acción de atacar a dicho objeto, 
+destruyéndolo como resultado. Dos objetos no pueden estar en la misma posición.
+
+"""
